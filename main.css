@@ -9,9 +9,12 @@
 .navlist{
     display: flex;
     justify-content: center;
+    background-color: aqua;
 }
 .navlist ul{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .navlist ul li{
     padding: 20px;
@@ -20,4 +23,11 @@
 .navlist li a{
     text-decoration: none;
     text-transform: uppercase;
+}
+@media screen and (min-width:600px) {
+    .navlist ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
 }
