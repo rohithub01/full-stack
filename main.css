@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head h1{
+    text-align: center;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+}
+.navlist ul{
+    display: flex;
+}
+.navlist ul li{
+    padding: 20px;
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
